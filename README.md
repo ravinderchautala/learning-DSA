@@ -1,1 +1,1 @@
-# learning-DSA
+# Learning DSA
