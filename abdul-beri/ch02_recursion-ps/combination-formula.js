@@ -4,10 +4,10 @@ function fac(n) {
     }
     return fac(n - 1) * n
 }
-function C(n, r) {
+function nCr(n, r) {
     let a = fac(n)
     let b = fac(r)
     let c = fac(n - r)
     return a/(b*c)
 }
-console.log(C(5,3))
+console.log(nCr(5,3))
