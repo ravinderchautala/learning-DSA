@@ -11,3 +11,11 @@ function nCr(n, r) {
     return a/(b*c)
 }
 console.log(nCr(5,3))
+// recursive ncr
+function NCR(n,r){
+    if(n==r || r==0){
+        return 1
+    }
+    return NCR(n-1,r-1)+NCR(n-1,r)
+}
+console.log(NCR(5,3))
