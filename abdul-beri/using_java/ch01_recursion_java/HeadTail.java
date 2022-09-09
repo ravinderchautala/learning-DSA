@@ -1,4 +1,4 @@
-package ch01_recursion_java;
+package using_java.ch01_recursion_java;
 
 import java.util.Scanner;
 

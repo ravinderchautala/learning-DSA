@@ -1,4 +1,4 @@
-package ch01_recursion_java;
+package using_java.ch02_recursion_application;
 
 import java.util.Scanner;
 
@@ -12,10 +12,11 @@ public class Factorial {
     }
     public static void main(String[] args) {
         System.out.print("Enter a natural number: ");
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int factorial = fac(n);
-        System.out.println(factorial);
+        try (Scanner sc = new Scanner(System.in)) {
+            int n = sc.nextInt();
+            int factorial = fac(n);
+            System.out.println(factorial);
+        }
     }
     
 }

@@ -1,4 +1,4 @@
-package ch01_recursion_java;
+package using_java.ch02_recursion_application;
 
 import java.util.Scanner;
 
@@ -12,9 +12,10 @@ public class AddNumbers {
     }
     public static void main(String[] args) {
         System.out.print("Enter a natural number: ");
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int sum = add(n);
-        System.out.println(sum);
+        try (Scanner sc = new Scanner(System.in)) {
+            int n = sc.nextInt();
+            int sum = add(n);
+            System.out.println(sum);
+        }
     }
 }

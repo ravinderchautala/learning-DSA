@@ -1,4 +1,4 @@
-package ch01_recursion_java;
+package using_java.ch01_recursion_java;
 
 public class IndirectRecursion {
     static void fun1(int n){
