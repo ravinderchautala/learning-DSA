@@ -1,6 +1,6 @@
+let p = 1
+let f = 1
 function tylor(x, n) {
-    let p = 1
-    let f = 1
     let r
     if (n == 0) {
         return 1;
@@ -13,20 +13,6 @@ function tylor(x, n) {
     return 0;
 }
 console.log(tylor(1, 10))
-
-function e(x, n) {
-    let p = 1
-    let f = 1
-    let r
-    if (n == 0) {
-        return 1
-    }
-    r = e(x, n - 1)
-    p = p * x
-    f = f * n
-    return r + p / f
-}
-console.log(e(1, 10))
 // using harmor's rule
 
 // function har(x, n) {

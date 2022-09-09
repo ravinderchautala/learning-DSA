@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeadTail",
+            "request": "launch",
+            "mainClass": "using_java.ch01_recursion_java.HeadTail",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch IndirectRecursion",
+            "request": "launch",
+            "mainClass": "using_java.ch01_recursion_java.IndirectRecursion",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch NestedRecusion",
+            "request": "launch",
+            "mainClass": "using_java.ch01_recursion_java.NestedRecusion",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch StaticVar",
+            "request": "launch",
+            "mainClass": "using_java.ch01_recursion_java.StaticVar",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeRecursion",
+            "request": "launch",
+            "mainClass": "using_java.ch01_recursion_java.TreeRecursion",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddNumbers",
+            "request": "launch",
+            "mainClass": "using_java.ch02_recursion_application.AddNumbers",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial",
+            "request": "launch",
+            "mainClass": "using_java.ch02_recursion_application.Factorial",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch Power",
+            "request": "launch",
+            "mainClass": "using_java.ch02_recursion_application.Power",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch TylorSeries",
+            "request": "launch",
+            "mainClass": "using_java.ch02_recursion_application.TylorSeries",
+            "projectName": "DSA_77514479"
+        }
+    ]
+}
