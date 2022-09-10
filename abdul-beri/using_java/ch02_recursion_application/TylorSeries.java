@@ -12,7 +12,16 @@ public class TylorSeries {
             return r +(p/f);
         }
     }
+    static double e(double x, double n){
+        if(n==0){
+            return p;
+        }else{
+            p = 1 + (x/n)*p ;
+            return e(x,n-1);  
+        }
+    }
     public static void main(String[] args) {
         System.out.println(tylor(1, 10));
+        System.out.println(e(1, 10));
     }
 }
