@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Check",
+            "request": "launch",
+            "mainClass": "using_java.ch02_recursion_application.Check",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
             "name": "Launch Febonacci",
             "request": "launch",
             "mainClass": "using_java.ch02_recursion_application.Febonacci",
